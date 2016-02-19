@@ -16,7 +16,7 @@
 	},
 	"homepage": "https://github.com/nativescript/sample-Groceries/groceries",
 	"nativescript": {
-		"id": "org.nativescript.groceries",
+		"id": "org.nativescript.BWSangularworkshop",
 		"tns-android": {
 			"version": "1.6.1"
 		},
