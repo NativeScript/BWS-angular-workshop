@@ -1,0 +1,9 @@
+.active-button {
+    color: white;
+    background-color: #339966;
+}
+
+.password-too-short {
+    color: black;
+    background-color: darkgray;
+}
