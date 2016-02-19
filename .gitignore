@@ -1,0 +1,7 @@
+.vscode/
+app/**/*.js
+lib/
+node_modules/
+platforms/
+tmp/
+typings/

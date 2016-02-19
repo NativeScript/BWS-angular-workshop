@@ -1,0 +1,1 @@
+This is a sample Grociries application build with [Angular2](http://angular.io) & [NativeScript](https://www.nativescript.org/) intended to be used in [Bulgaria Web Summit 2016](http://bulgariawebsummit.com/).
