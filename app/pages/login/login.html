@@ -1,9 +1,8 @@
 <StackLayout>
-  <Image src="res://logo" stretch="none" horizontalAlignment="center"></Image>
+   <Label [text]="'Hello ' + name"></Label>
 
-  <TextField [(ngModel)]="user.email" id="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
-  <TextField [(ngModel)]="user.password" id="password" secure="true"  hint="Password"></TextField>
+   <TextField [(ngModel)]="name"></TextField>
+   <TextField [(ngModel)]="password" [secure]="hidePassword" (doubleTap)="showHide()"></TextField>
 
-  <Button text="Sign in" (tap)="signIn()"></Button>
-  <Button text="Sign up for Groceries" class="link" [nsRouterLink]="['/Register']"></Button>
+   <Button text="Sign In" (tap)="signIn()"></Button>
 </StackLayout>
